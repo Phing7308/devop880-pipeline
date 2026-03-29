@@ -28,7 +28,7 @@ jobs:
            context: .
            push: true
           # เปลี่ยน 'your-username/your-repo-name' เป็นชื่อของคุณ
-          tags: your-username/your-repo-name:latest
+          tags: parichatphing/ci-cd-react:latest
 
 deploy:
   needs: build-and-push-docker-image
